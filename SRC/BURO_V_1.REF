@@ -1,0 +1,88 @@
+/* -------------------------------------------------------------------------
+						  BURO_V_1 Programçna Ait
+					  örÅn Referans Kodlarç (c) 2000
+ ------------------------------------------------------------------------- */
+
+		/* MENULIST.MNU DOSYASINA (yani menulere ait) TANIMLAMA */
+#define YMenu_MUSAVIR		1
+#define	YMenu_ODEMELER		2
+#define YMenu_RAPORLAR		3
+#define YMenu_ISLEMLER		4
+#define DMenu_ARAC			5
+#define DMenu_DATAMENU		6
+#define KMenu_TAKIP			7
+#define KMenu_DATA_ISLEM	8
+#define KMenu_AYLAR			9
+#define KMenu_YILLAR	   10
+#define KMenu_ACILIS	   11
+#define KMenu_ISLEM_TURU   14
+#define KMenu_ODEME_TURU   16
+
+		/*---------- MENULIST.MNU ADLI TANIMLAMANIN SONU ---------*/
+
+		   /* PENCERE DERECELERI ve TURLERINE AIT REFERANSLAR */
+#define UST_DUZEY	0
+#define DATA_FORM   1
+#define ORTA_DUZEY  2
+#define ALT_DUZEY   3
+#define DUZEY		1 // Buradaki deßer Pencere_ozellißini attçrçp, eksiltir
+
+		   /*-------------------------------------------------*/
+						/*    DATA_MENU òûARETLERò     */
+#define YENI_KAYIT 		"11000111"
+#define KOPYALA_MODU    "00000010"
+#define HEPSI_ACIK		"00000000"
+						/*-----------------------------*/
+							/*  Form Referanslarç */
+#define Form_BOS					0000
+#define Form_ACILIS					1000
+#define Data_Acilis_Bilgisi			1100
+#define Data_Acilis_Yetkili			1200
+#define Data_Acilis_Devir			1300
+#define Data_Acilis_Bakiye			1400
+#define Data_Acilis_Tablo			1500
+#define Form_IS_TAKIBI				2000
+#define Data_IsTakip_Genel			2100
+#define Data_IsTakip_Tablo			2200
+#define Form_MUKELLEF_LISTESI		3000
+#define Data_TekAlan				3100
+#define Data_TumAlan				3200
+#define Form_PARAMETRELER			4000
+#define Data_Parametreler			4100
+#define Form_PARA_KUTUSU			5000
+#define Data_ParaKutusu_Genel		5100
+#define Data_ParaKutusu_CekDetayi   5200
+#define Data_ParaKutusu_CekTablosu	5300
+#define Data_ParaKutusu_KasaDurumu	5400
+#define Data_ParaKutusu_IndeksAdres	5500
+#define Data_ParaKutusu_KurBilgisi	5600
+#define Form_ODEME_LISTESI			6000
+#define Data_OdemeListesi			6100
+#define Form_KESINTI_LISTESI		7000
+#define Data_KesintiListesi			7100
+#define Form_BORCU_OLANLAR			8000
+#define Data_BorcuOlanlar			8100
+#define Form_ODEME_KARTI			9000
+#define Data_OdemeKarti         	9100
+#define Form_KULLANICI			   10000
+#define Data_Kullanici			   10100
+#define Form_FIRMA_AYARI	   	   11000
+#define Data_FirmaAyari			   11100
+#define Form_YAZICI			       12000
+#define Data_Yazici				   12100
+#define Form_DATA_ISLEMLERI	       13000
+#define Data_DataIslm_Yedekleme	   13100
+#define Data_DataIslm_Duzenleme	   13200
+#define Data_DataIslm_Onarma	   13300
+#define Data_DataIslm_Aktarma	   13400
+#define Data_DataIslm_Devir		   13500
+#define Form_DIGERLERI			   20000
+#define Form_ARACLAR_MENU		   20001
+#define Form_HESAP_MAKINESI		   20002
+#define Form_NOTLAR				   20003
+#define Form_MESAJLASMA			   20005
+#define Data_DIGERLERI			   21000
+#define Data_Indeks_Bilgisi    	   21001
+#define Data_Bos_Referans          21002
+							/*--------------------*/
+
